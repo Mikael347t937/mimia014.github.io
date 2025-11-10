@@ -1,0 +1,118 @@
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: darkslategray;
+  color: white;
+  user-select: none;
+}
+
+.main {
+  display: flex;
+  gap: 200px;
+}
+
+.left h3 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.monster-image {
+  width: 300px;
+}
+
+.monster-image:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.monster-image:active {
+  opacity: 0.8;
+  transform: scale(1.02);
+}
+
+.Upgrade {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 330px;
+  height: 60px;
+  border: 4px solid white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.Upgrade:hover {
+  cursor: pointer;
+}
+
+.upgrade-img {
+  width: 55px;
+}
+
+.mid-section h4 {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.mid-section p {
+  margin: 0;
+}
+
+.coin-img {
+  width: 20px;
+  height: 20px;
+}
+
+.cost-info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.next-level-info {
+  position: absolute;
+  right: -105px;
+  background-color: rgb(90, 89, 90);
+  height: 80px;
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+  display: none;
+}
+
+.Upgrade:hover .next-level-info {
+  display: block;
+}
+
+#reta {
+  border: 4px solid white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+#AutoClicker {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 330px;
+  height: 60px;
+  border: 4px solid white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  position: relative;
+  margin-top: 10px;
+}
+
+#AutoClicker:hover {
+  cursor: pointer;
+}
+
+#AutoClicker:hover .next-level-info {
+  display: block;
+}
